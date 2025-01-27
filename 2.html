@@ -5,6 +5,12 @@
     width: 90px; 
     height: 30px; 
     font-size:small;
+    cursor: pointer; 
+    transition: opacity 0.3s; 
+}
+.uber:hover{
+    opacity: 0.8
+   
 }
 .amazon{
     background-color: rgb(255,216,20);
@@ -12,6 +18,12 @@
     width: 120px; 
     height: 30px; 
     border-width: 0px;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+.amazon:hover{
+    background-color: rgb(176, 152, 29);
+
 }
 .github{
     width: 70px; 
@@ -21,16 +33,25 @@
     border-radius: 5px;
     font-weight: bold;
     border: none; 
+    transition: box-shadow 0.3s;
+}
+
+.github:hover{
+    box-shadow: 5px 5px 15px rgba(0,0,0, 0.3); 
 }
 .bootstrap1{
     width: 90px; 
     height: 30px; 
-    background-color: rgb(121,82,179);
+    background-color: hwb(264 30% 27%);
     color: white;
     border-radius: 5px;
     font-weight: bold;
     font-size: small;
     border: none; 
+    transition: background-color 0.3s;
+}
+.bootstrap1:hover{
+    background-color: rgb(95, 55, 156);
 }
 .bootstrap2{
     width: 90px; 
@@ -44,6 +65,12 @@
     border-style:solid;
     border-color: rgb(108,117,125);
     cursor:pointer; 
+    transition: color .3s; 
+    transition: background-color .3s; 
+}
+.bootstrap2:hover{
+    background-color: rgb(108,117,125);
+    color: white;
 }
 .linkedln1{
     width: 210px; 
@@ -55,6 +82,11 @@
     border-radius: 20px;
     border-style: none;
     cursor: pointer; 
+    margin-right: 15px; 
+    transition: background-color .3s;
+}
+.linkedln1:hover{
+    background-color: rgb(33, 86, 155);
 }
 .linkedln2{
     width: 75px; 
@@ -64,9 +96,16 @@
     font-weight: bold;
     border-radius: 20px;
     font-size: 14px; 
+    border-width: 1px; 
     border-style: solid;
     border-color: rgb(10,102,194);
-    cursor: pointer;
+    cursor: pointer; 
+    transition: background-color .3s,
+    border-width 0.3s; 
+}
+.linkedln2:hover{
+    background-color: rgb(152, 204, 250);
+    border-width: 2px; 
 }
 </style>
 
